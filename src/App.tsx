@@ -8,6 +8,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { motion } from 'framer-motion';
 import { connectMqtt, subscribeTopic } from './mqtt';
 
 interface SensorData {
@@ -80,6 +81,16 @@ function App() {
       </Router>
 
       <main className="container mx-auto px-4 py-8">
+        <div className="container mx-auto px-4">
+          <motion.h2
+            className="text-4xl font-bold text-center mb-8"
+            initial={{ opacity: 0, y: -50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            Dashboard
+          </motion.h2>
+        </div>
         <div className="mb-4 text-center">
           <p
             className={`text-lg font-semibold ${
