@@ -1,4 +1,4 @@
-<h1>**Torquex: Smart EV Battery Monitoring Dashboard**</h1?
+<h1>**Torquex: Smart EV Battery Monitoring Dashboard**</h1>
 
 We are a team of electrical engineering students from Thiagarajar College of Engineering, Madurai, dedicated to enhancing the driving experience with our innovative solution, Torquex. This web-based platform provides real-time monitoring and control over critical vehicle parameters such as motor torque, road angle, battery State of Charge (SoC), speed, and vehicle load. <br />
 
